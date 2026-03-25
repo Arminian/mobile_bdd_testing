@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+package-lock.json
+apps/
+allure-report/
+allure-results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+dist/
+build/

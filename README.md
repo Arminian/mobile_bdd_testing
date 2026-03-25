@@ -1,0 +1,33 @@
+# Mobile Automation with WebdriverIO and Cucumber
+
+This project tests the native android application provided by the wdio team, available here: https://github.com/webdriverio/native-demo-app (last accessed: 2026/03/25)
+
+## Description
+This project demonstrates recommended approach for mobile test automation with WebdriverIO and Cucumber in terms of file structure and syntax practices. This is a part of TDL School course.
+
+## Technologies
+- Allure reporter
+- Spec terminal reporter
+- Selenium
+- Faker
+- Appium
+  - uiautomator2-driver
+
+## File structure
+```
+├── features
+│   ├── login.feature
+│   ├── pageobjects
+│   │   ├── login.page.js
+│   │   └── navigation.page.js
+│   ├── step-definitions
+│   │   └── login.steps.js
+│   └── test-objects
+│       └── login.test.js
+├── package.json
+├── README.md
+├── support
+│   └── data
+│       └── login-signup-data.js
+└── wdio.conf.js
+```
