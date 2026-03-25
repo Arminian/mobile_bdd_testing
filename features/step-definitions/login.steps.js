@@ -1,7 +1,7 @@
 import { Given, When, Then } from "@wdio/cucumber-framework";
 import LoginTest from "../test-objects/login.test";
 
-import { signupData, invalidLoginData } from "../../support/data/login-signup-data";
+import { signupData, invalidLoginData } from "../data/login-signup-data";
 
 Given(/^I navigate to login page$/, async () => {
   await LoginTest.open();

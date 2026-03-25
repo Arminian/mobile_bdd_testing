@@ -16,6 +16,8 @@ This project demonstrates recommended approach for mobile test automation with W
 ## File structure
 ```
 ├── features
+│   ├── data
+│   │   └── login-signup-data.js
 │   ├── login.feature
 │   ├── pageobjects
 │   │   ├── login.page.js
@@ -27,7 +29,5 @@ This project demonstrates recommended approach for mobile test automation with W
 ├── package.json
 ├── README.md
 ├── support
-│   └── data
-│       └── login-signup-data.js
 └── wdio.conf.js
 ```
