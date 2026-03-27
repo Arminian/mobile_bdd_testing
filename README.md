@@ -16,15 +16,19 @@ This project demonstrates the recommended approach to mobile test automation wit
 ## File structure
 ```
 ├── features
+│   ├── forms.feature
+│   ├── login.feature
 │   ├── data
 │   │   └── login-signup-data.js
-│   ├── login.feature
 │   ├── pageobjects
+│   │   ├── forms.page.js
 │   │   ├── login.page.js
 │   │   └── navigation.page.js
 │   ├── step-definitions
+│   │   ├── forms.steps.js
 │   │   └── login.steps.js
 │   └── test-objects
+│       ├── forms.test.js
 │       └── login.test.js
 ├── package.json
 ├── README.md
