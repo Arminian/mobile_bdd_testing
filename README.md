@@ -3,7 +3,7 @@
 This project tests the native android application provided by the wdio team, available here: https://github.com/webdriverio/native-demo-app (last accessed: 2026/03/25)
 
 ## 🙈 Description
-This project demonstrates the recommended approach to mobile test automation with WebdriverIO and Cucumber in terms of file structure and syntax practices. This is a part of the TDL School course.
+This project demonstrates industry standards to mobile test automation with WebdriverIO and Cucumber in terms of file structure and syntax. This is a part of the TDL School course.
 
 ## 🙉 Tested Features
 1. Login & Signup
@@ -24,8 +24,6 @@ This project demonstrates the recommended approach to mobile test automation wit
 │   ├── drag.feature
 │   ├── forms.feature
 │   ├── login.feature
-│   ├── data
-│   │   └── login-signup-data.js
 │   ├── pageobjects
 │   │   ├── drag.page.js
 │   │   ├── forms.page.js
@@ -35,12 +33,14 @@ This project demonstrates the recommended approach to mobile test automation wit
 │   │   ├── drag.steps.js
 │   │   ├── forms.steps.js
 │   │   └── login.steps.js
+│   ├── support
+│   │   └── data
+│   │       └── login-signup-data.js
 │   └── test-objects
 │       ├── drag.test.js
 │       ├── forms.test.js
 │       └── login.test.js
 ├── package.json
 ├── README.md
-├── support
 └── wdio.conf.js
 ```
